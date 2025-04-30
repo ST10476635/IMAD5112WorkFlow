@@ -18,8 +18,8 @@ jobs:
 
     - name: create wrapper
       run: chmod +x ./gradlew
-      working-directory: Calucalation
+      working-directory: Example1 
    
     - name: Build with Gradle
       run: ./gradlew build
-      working-directory: Calucalation
+      working-directory: Example1
